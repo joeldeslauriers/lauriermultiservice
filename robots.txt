@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
+Disallow: /merci.html
 
+# Sitemap
 Sitemap: https://lauriermultiservice.ca/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /

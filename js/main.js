@@ -164,11 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = await res.json();
 
         if (data.success) {
-          const formEl  = document.getElementById('formContent');
-          const success = document.getElementById('formSuccess');
-          if (formEl)  formEl.style.display = 'none';
-          if (success) { success.style.display = 'block'; success.classList.add('show'); }
-          if (typeof lucide !== 'undefined') lucide.createIcons();
+          window.location.href = 'merci.html';
         } else {
           if (btn) {
             btn.disabled = false;
