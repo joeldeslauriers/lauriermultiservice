@@ -85,7 +85,7 @@ ul { list-style: none; }
   box-shadow: 0 8px 40px rgba(0,0,0,0.3);
 }
 .nav-logo { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-.nav-logo img { height: 38px; width: auto; transition: var(--t); }
+.nav-logo img { height: 78px; width: auto; transition: var(--t); }
 .nav-logo:hover img { transform: scale(1.05); }
 .nav-logo-text .name { font-family: var(--font-heading); font-weight: 700; font-size: 0.95rem; color: #fff; line-height: 1.2; }
 .nav-logo-text .tagline { font-size: 0.68rem; color: var(--primary); font-weight: 500; }
@@ -431,7 +431,7 @@ ul { list-style: none; }
 .footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.04); padding-top: 80px; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.6fr; gap: 48px; margin-bottom: 60px; }
 .footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
-.footer-logo img { height: 38px; }
+.footer-logo img { height: 78px; }
 .footer-logo .name { font-family: var(--font-heading); font-weight: 700; font-size: 0.95rem; }
 .footer-logo .tagline { font-size: 0.68rem; color: var(--primary); }
 .footer-desc { font-size: 0.875rem; color: rgba(255,255,255,0.42); line-height: 1.75; margin-bottom: 24px; }
