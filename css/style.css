@@ -708,6 +708,20 @@ textarea.form-control { resize: vertical; min-height: 130px; }
 .full-service-card h3 { font-family: var(--font-heading); font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
 .full-service-card p { font-size: 0.84rem; color: rgba(255,255,255,0.5); line-height: 1.7; }
 
+/* ── Featured Service Card ───────────────────────────────────── */
+.fsc-featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; border-radius: var(--radius-md); overflow: hidden; border: 1px solid rgba(109,190,69,0.18); background: var(--dark-3); transition: var(--t); }
+.fsc-featured:hover { border-color: rgba(109,190,69,0.35); box-shadow: var(--shadow-card); }
+.fsc-featured-img { overflow: hidden; min-height: 320px; }
+.fsc-featured-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s var(--ease); display: block; }
+.fsc-featured:hover .fsc-featured-img img { transform: scale(1.04); }
+.fsc-featured-body { padding: 44px 40px; display: flex; flex-direction: column; }
+.fsc-featured-body h3 { font-family: var(--font-heading); font-size: 1.35rem; font-weight: 800; color: #fff; margin-bottom: 12px; }
+.fsc-featured-body p { font-size: 0.88rem; color: rgba(255,255,255,0.55); line-height: 1.75; }
+.fsc-list { list-style: none; margin-top: 18px; display: flex; flex-direction: column; gap: 10px; }
+.fsc-list li { display: flex; align-items: center; gap: 9px; font-size: 0.84rem; color: rgba(255,255,255,0.7); }
+.fsc-list li i { width: 14px; height: 14px; color: var(--primary); flex-shrink: 0; }
+@media (max-width: 720px) { .fsc-featured { grid-template-columns: 1fr; } .fsc-featured-img { min-height: 220px; } .fsc-featured-body { padding: 28px 24px; } }
+
 /* ── Note Box ────────────────────────────────────────────────── */
 .note-box {
   display: flex; gap: 24px; align-items: flex-start;
