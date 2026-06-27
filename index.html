@@ -2,6 +2,9 @@
 <html lang="fr-CA">
 <head>
   <meta charset="UTF-8">
+  <!-- Google Analytics 4 - Remplacer G-XXXXXXXXXX par votre Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
   <meta name="theme-color" content="#6DBE45">
   <meta name="color-scheme" content="dark">
   <link rel="manifest" href="manifest.webmanifest">
@@ -17,33 +20,78 @@
   <link rel="canonical" href="https://lauriermultiservice.ca/">
 
   <meta property="og:title" content="Laurier Multi Service | Un seul appel. Tous vos projets.">
-  <meta property="og:description" content="Services professionnels de rénovation, entretien extérieur, informatique et mécanique légère sur la Rive-Nord.">
+  <meta property="og:description" content="Homme à tout faire sur la Rive-Nord : rénovation, entretien extérieur, informatique et mécanique légère. Soumission gratuite : 514-622-7486.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_CA">
   <meta property="og:url" content="https://lauriermultiservice.ca/">
+  <meta property="og:image" content="https://lauriermultiservice.ca/images/hero.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Laurier Multi Service">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Laurier Multi Service | Rive-Nord">
+  <meta name="twitter:title" content="Laurier Multi Service | Homme à tout faire – Rive-Nord">
+  <meta name="twitter:description" content="Rénovation, entretien extérieur, informatique et mécanique légère sur la Rive-Nord. Soumission gratuite.">
+  <meta name="twitter:image" content="https://lauriermultiservice.ca/images/hero.png">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Laurier Multi Service",
-    "description": "Services professionnels de rénovation, entretien extérieur, informatique et mécanique légère sur la Rive-Nord de Montréal.",
-    "telephone": "+15146227486",
-    "email": "multiservicelaurier@gmail.com",
-    "url": "https://lauriermultiservice.ca",
-    "image": "https://lauriermultiservice.ca/images/logonobg.png",
-    "address": { "@type": "PostalAddress", "addressRegion": "QC", "addressCountry": "CA" },
-    "areaServed": ["Mirabel","Saint-Eustache","Blainville","Sainte-Thérèse","Boisbriand","Rosemère","Deux-Montagnes","Saint-Joseph-du-Lac","Oka","Sainte-Marthe-sur-le-Lac","Saint-Augustin","Saint-Benoît","Saint-Canut","Prévost","Saint-Jérôme","Saint-Colomban","Sainte-Sophie","Terrebonne","Mascouche"],
-    "hasOfferCatalog": { "@type": "OfferCatalog", "name": "Services Laurier Multi Service", "itemListElement": [ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rénovation résidentielle" } }, { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Entretien extérieur" } }, { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Services informatiques" } }, { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mécanique légère" } } ] },
-    "priceRange": "$$"
-  }
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Laurier Multi Service",
+      "description": "Services professionnels de rénovation, entretien extérieur, informatique et mécanique légère sur la Rive-Nord de Montréal.",
+      "telephone": "+15146227486",
+      "email": "multiservicelaurier@gmail.com",
+      "url": "https://lauriermultiservice.ca",
+      "image": "https://lauriermultiservice.ca/images/hero.png",
+      "logo": "https://lauriermultiservice.ca/images/logonobg.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mirabel",
+        "addressRegion": "QC",
+        "addressCountry": "CA",
+        "postalCode": "J7J"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 45.65, "longitude": -73.90 },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "19:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00" }
+      ],
+      "areaServed": ["Mirabel","Saint-Eustache","Blainville","Sainte-Thérèse","Boisbriand","Rosemère","Deux-Montagnes","Saint-Joseph-du-Lac","Oka","Sainte-Marthe-sur-le-Lac","Prévost","Saint-Jérôme","Saint-Colomban","Sainte-Sophie","Terrebonne","Mascouche","Laval"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services Laurier Multi Service",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rénovation résidentielle" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Entretien extérieur" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Services informatiques" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mécanique légère" } }
+        ]
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "CAD",
+      "paymentAccepted": "Cash, Virement, Chèque",
+      "sameAs": ["https://github.com/joeldeslauriers/lauriermultiservice"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Laurier Multi Service",
+      "url": "https://lauriermultiservice.ca",
+      "inLanguage": "fr-CA",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://lauriermultiservice.ca/services.html",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="images/hero.png" as="image">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -60,7 +108,7 @@
 <!-- ── Navigation ─────────────────────────────────────────────── -->
 <nav id="nav" class="nav" role="navigation" aria-label="Navigation principale">
   <a href="index.html" class="nav-logo">
-    <img src="images/logonobg.png" alt="Laurier Multi Service" width="38" height="38" loading="eager">
+    <img src="images/logonobg.png" alt="Laurier Multi Service" width="78" height="78" loading="eager">
     <div class="nav-logo-text">
       <div class="name">Laurier Multi Service</div>
       <div class="tagline">Un seul appel. Tous vos projets.</div>
